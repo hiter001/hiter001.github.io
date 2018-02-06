@@ -306,7 +306,7 @@
 <script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-  id: "https://github.com/",
+  id: '',
   owner: 'hiter001',
   repo: 'hiter001.github.io',
   oauth: {
@@ -324,6 +324,22 @@ gitment.render('gitment-ctn')
 
   
 
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '',
+  owner: 'hiter001',
+  repo: 'hiter001.github.io',
+  oauth: {
+    client_id: '1de37383c937764a90a3',
+    client_secret: '477ce6def72d69fa2022b838656968127d04b270',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
   
 
 
